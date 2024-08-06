@@ -1,0 +1,38 @@
+body
+{
+    background-color: bisque;
+}
+.CON
+{
+    background-color: white;
+    margin: auto;
+    width: fit-content;
+    border: solid 1px black;
+    padding: 25px;
+    margin-top: 10rem;
+    border-radius: 5PX;
+}
+table,td,tr
+{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 8px;
+    color: blue;
+    
+}
+
+th
+{
+    border: solid 1px black;
+    padding: 8px;
+    color: RED;
+    text-align: left;
+}
+
+.head
+{
+    background-color: yellow;
+    padding: 5PX;
+    border-radius: 5PX;
+    padding-left: 15PX;
+}
