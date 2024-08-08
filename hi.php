@@ -38,10 +38,13 @@ echo "
 <body>
     <DIV class='CON'>
 
+
+    <img src='github.jpg' alt='college logo'>
+
     <div class='head'>
     <h3>ROLL NO       : ".$row['rno']."  </h3>
     <h3>NAME          : ".$row['nm']."  </h3> 
-    <h3>BRANCH        : ".$row['br']."  </h3>
+    <h3>PROGRAM        : B.TECH in ".$row['br']."  </h3>
     </div>
     <hr>
     <br>
@@ -56,32 +59,32 @@ echo "
         </tr>
         <tr>
             <td>ENGLISH</td>
-            <th>".$row['g1']." </th>
-            <th>".$row['p1']." </th>
+            <td>".$row['g1']." </td>
+            <td>".$row['p1']." </td>
             <td>3.0</td>
         </tr>
         <tr>
             <td>M1</td>
-            <th>".$row['g2']." </th>
-            <th>".$row['p2']." </th>
+            <td>".$row['g2']." </td>
+            <td>".$row['p2']." </td>
             <td>3.0</td>
         </tr>
         <tr>
             <td>CHEMISTRY</td>
-            <th>".$row['g3']." </th>
-            <th>".$row['p3']." </th>
+            <td>".$row['g3']." </td>
+            <td>".$row['p3']." </td>
             <td>3.0</td>
         </tr>
         <tr>
             <td>C LANGUAGES</td>
-            <th>".$row['g4']." </th>
-            <th>".$row['p4']." </th>
+            <td>".$row['g4']." </td>
+            <td>".$row['p4']." </td>
             <td>3.0</td>
         </tr>
         <tr>
             <td>WORK SHOP</td>
-            <th>".$row['g5']." </th>
-            <th>".$row['p5']." </th>
+            <td>".$row['g5']." </td>
+            <td>".$row['p5']." </td>
             <td>3.0</td>
         </tr>
 
@@ -101,6 +104,10 @@ echo "
 
 
 
+            }
+            else
+            {
+                echo "invalid details";
             }
         }
 
